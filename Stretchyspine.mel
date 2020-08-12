@@ -1,0 +1,16 @@
+//try to do a stretchy spine!!
+
+//create a joint chain in +Y and adjust joint radius
+for ( $i = 0; $i < 6; ++$i){
+    joint -radius 3.0;
+    move 0 (2 * $i) 0;
+}
+select -d;
+
+//make cubes and parent cubes to each joint
+
+
+
+
+
+//create IK spline from top joint to end joint
