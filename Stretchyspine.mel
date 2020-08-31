@@ -1,3 +1,4 @@
+
 //try to do a stretchy spine!!
 
 //create a joint chain in +Y and adjust joint radius
@@ -10,7 +11,5 @@ select -d;
 //make cubes and parent cubes to each joint
 
 
-
-
-
 //create IK spline from top joint to end joint
+
